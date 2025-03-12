@@ -12,7 +12,7 @@ console.log(typeof(product_name))//string
 console.log(typeof(discount))//boolean
 console.log(typeof(location))//undefined
 */
-
+/*
 var color=['red','blue','yellow']
 var size=[34,65,64,34,32]
 var emp={
@@ -25,4 +25,5 @@ console.log(emp)//{ eid: 101, ename: 'shyam' }
 console.log(typeof(color))//object
 console.log(typeof(size))//object
 console.log(typeof(emp))//object
+*/
 
