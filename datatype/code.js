@@ -13,16 +13,19 @@ console.log(typeof(discount))//boolean
 console.log(typeof(location))//undefined
 */
 
-var color=['red','blue','yellow']
-var size=[34,65,64,34,32]
-var emp={
-    eid:101,
-    ename:'shyam'
-}
-console.log(color)//[ 'red', 'blue', 'yellow' ]
-console.log(size)//[ 34, 65, 64, 34, 32 ]
-console.log(emp)//{ eid: 101, ename: 'shyam' }
-console.log(typeof(color))//object
-console.log(typeof(size))//object
-console.log(typeof(emp))//object
+// var color=['red','blue','yellow']
+// var size=[34,65,64,34,32]
+// var emp={
+//     eid:101,
+//     ename:'shyam'
+// }
+// var location;
+// console.log(color)//[ 'red', 'blue', 'yellow' ]
+// console.log(size)//[ 34, 65, 64, 34, 32 ]
+// console.log(emp)//{ eid: 101, ename: 'shyam' }
+// console.log(typeof(color))//object
+// console.log(typeof(size))//object
+// console.log(typeof(emp))//object
+// console.log(typeof(location))
+
 

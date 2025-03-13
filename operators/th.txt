@@ -1,0 +1,15 @@
+arithmatic(+,-,*,/,%,**)
+relational(<,<=,>,>=)
+logical(&&,||)
+equality(==,===)
+incr/decr(++,--)
+assignment(=.+=,-=,*=,/=,%=)
+ternary(?,:)
+bitwise
+
+Arithmatic op.:
+   it adds only when there are both values are number type. if different it concats.
+
+equality op.:
+  == verify only content.
+  === verify data type and content.
