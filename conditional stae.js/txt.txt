@@ -1,0 +1,12 @@
+CONDITIONAL statements:
+
+                                    iterative statements:
+if            switch(value){}           for 
+elif                                    while
+else                                    do while
+                                        for of
+                                        ================
+                                        es6:
+                                        for(of()){}
+                                        for(in()){}
+

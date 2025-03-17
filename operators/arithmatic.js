@@ -20,7 +20,8 @@
 // console.log("shyam"*10);//NaN
 // console.log("shyam"*"nandu");//NaN
 
-a=100
-b='100'
-console.log(a==b);//true
-console.log(a===b);//false bcz the b value is string type.
+// a=100
+// b='100'
+// console.log(a==b);//true
+// console.log(a===b);//false bcz the b value is string type.
+

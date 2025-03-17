@@ -10,6 +10,56 @@ bitwise
 Arithmatic op.:
    it adds only when there are both values are number type. if different it concats.
 
-equality op.:
-  == verify only content.
-  === verify data type and content.
+1. Arithmetic Operators
+These are used for basic mathematical operations:
++ : Addition (e.g., 3 + 2 = 5)
+- : Subtraction (e.g., 5 - 2 = 3)
+* : Multiplication (e.g., 4 * 3 = 12)
+/ : Division (e.g., 6 / 2 = 3)
+% : Modulus (remainder of division, e.g., 5 % 2 = 1)
+** : Exponentiation (e.g., 3 ** 2 = 9, calculates 3^2)
+
+2. Relational (Comparison) Operators
+These compare values and return true or false:
+< : Less than (e.g., 3 < 5 → true)
+<= : Less than or equal to (e.g., 5 <= 5 → true)
+> : Greater than (e.g., 7 > 2 → true)
+>= : Greater than or equal to (e.g., 4 >= 4 → true)
+
+3. Logical Operators
+Used for combining or negating Boolean conditions:
+&& : Logical AND (e.g., true && false → false)
+|| : Logical OR (e.g., true || false → true)
+
+4. Equality Operators
+Used for value comparisons:
+== : Equality (compares values but not types, e.g., "5" == 5 → true)
+=== : Strict equality (compares values and types, e.g., "5" === 5 → false)
+
+5. Increment/Decrement Operators
+Used for increasing or decreasing values:
+++ : Increment (adds 1, e.g., let a = 5; a++ → 6)
+-- : Decrement (subtracts 1, e.g., let b = 5; b-- → 4)
+
+6. Assignment Operators
+Used to assign or update values:
+= : Assignment (e.g., x = 5)
++= : Addition assignment (e.g., x += 3 → x = x + 3)
+-= : Subtraction assignment (e.g., x -= 2 → x = x - 2)
+*= : Multiplication assignment (e.g., x *= 4 → x = x * 4)
+/= : Division assignment (e.g., x /= 2 → x = x / 2)
+%= : Modulus assignment (e.g., x %= 3 → x = x % 3)
+
+7. Ternary Operator
+A shorthand for conditional statements:
+condition ? expression_if_true : expression_if_false Example: let result = (age >= 18) ? "Adult" : "Minor";
+
+8. Bitwise Operators
+These work at the bit level, manipulating binary representations of numbers:
+& : Bitwise AND (e.g., 5 & 3 → 1 since 0101 & 0011 = 0001)
+| : Bitwise OR (e.g., 5 | 3 → 7 since 0101 | 0011 = 0111)
+^ : Bitwise XOR (e.g., 5 ^ 3 → 6 since 0101 ^ 0011 = 0110)
+~ : Bitwise NOT (e.g., ~5 → -6 in signed binary)
+<< : Left shift (e.g., 5 << 1 → 10 shifts bits left by 1)
+>> : Right shift (e.g., 5 >> 1 → 2 shifts bits right by 1)
+>>> : Zero-fill right shift (right shift with zero-padding)
