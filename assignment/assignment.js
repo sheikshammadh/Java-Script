@@ -146,15 +146,12 @@ console.log(value1, value2, value3);
 // ==============================================================================================================================
 // JavaScript Program to Find the Largest of Three Numbers
 
-function findLargest(num1, num2, num3) {
-    if (num1 >= num2 && num1 >= num3) {
-        return num1;
-    } else if (num2 >= num1 && num2 >= num3) {
-        return num2;
-    } else {
-        return num3;
-    }
-}
-let a = 25, b = 42, c = 39;
-let largest = findLargest(a, b, c);
-console.log(`The largest number is: ${largest}`);
+// let num1 = 252, num2 = 425, num3 = 3559;
+
+// if (num1 >= num2 && num1 >= num3) {
+//     console.log(num1,'is the largest number');
+// } else if (num2 >= num1 && num2 >= num3) {
+//     console.log(num2,'is the largest number');
+// } else {
+//     console.log(num3,'is the largest number');
+// }
