@@ -155,3 +155,12 @@ console.log(value1, value2, value3);
 // } else {
 //     console.log(num3,'is the largest number');
 // }
+// ======================================================================================================================
+// Program check if a number is divisible by 7 or not using a ternary operator?
+// i=0
+// while(i<=10){
+//     console.log(i)
+//     i=i+1
+// }
+//program to print 10 to 1 number using a while loop
+
