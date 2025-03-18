@@ -124,5 +124,37 @@ if (value1 > value2) {
     [value1, value2] = [value2, value1];
 }
 console.log(value1, value2, value3);
-/*
+*/
 // =========================================================================================================================
+//Program to print the given 3 numbers in descending order.
+/*
+let value1 = 1234444;
+let value2 = 123453456789;
+let value3 = 123;
+
+if (value1 < value2) {
+    [value1, value2] = [value2, value1];
+}
+if (value2 < value3) {
+    [value2, value3] = [value3, value2];
+}
+if (value1 < value2) {
+    [value1, value2] = [value2, value1];
+}
+console.log(value1, value2, value3);
+*/
+// ==============================================================================================================================
+// JavaScript Program to Find the Largest of Three Numbers
+
+function findLargest(num1, num2, num3) {
+    if (num1 >= num2 && num1 >= num3) {
+        return num1;
+    } else if (num2 >= num1 && num2 >= num3) {
+        return num2;
+    } else {
+        return num3;
+    }
+}
+let a = 25, b = 42, c = 39;
+let largest = findLargest(a, b, c);
+console.log(`The largest number is: ${largest}`);
