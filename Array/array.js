@@ -30,7 +30,11 @@
 //     console.log(uid);
 // }
 
+// enames=['shyam','nandu','vishnu','harika']
+// for(ename in enames){//for in iterates the number of keys and 
+//     console.log(ename)
+// }
 enames=['shyam','nandu','vishnu','harika']
-for(ename in enames){
+for(ename of enames){//for of iterates the number of characters and 
     console.log(ename)
 }
