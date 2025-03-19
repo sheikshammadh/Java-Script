@@ -13,4 +13,5 @@ while(i<=4){
 for(let emp of empl){
     console.log(empl.ename());
 }
-the code is good but giving an error.
+// the code is good but giving an error.
+// dont know why?
