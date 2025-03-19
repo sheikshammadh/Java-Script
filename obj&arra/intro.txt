@@ -1,0 +1,19 @@
+JavaScript Array:
+1.Represent group of elements as one entity.
+2.Allows duplicates and heterogenous.
+3.Elements are stored based on indexing.
+4.Negative indexing is not possible.
+5.Order is maintaned.
+6.JS-Array is iterable object.
+                       for
+                       while
+                       do while
+                       for of
+
+Object:
+   it is a collection of key and value pairs.
+
+
+[git lab
+CACD Pipeline]
+
