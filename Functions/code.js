@@ -90,3 +90,11 @@ let bal=acc_bal()
 console.log(bal);//1000000
 */
 // ================================================================================================================================
+let balance_remain =10000; 
+
+function balanceRemain(cash) {
+    balance_remain -= cash; 
+    return balance_remain;  
+}
+console.log(balanceRemain(12345)); 
+console.log(balance_remain);   
