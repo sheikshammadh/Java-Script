@@ -1,0 +1,11 @@
+function:
+
+
+
+syntax:
+function name(){
+    st-1
+    st-2
+    st-3...
+}
+name()
