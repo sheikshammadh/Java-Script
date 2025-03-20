@@ -1,7 +1,5 @@
 function:
-
-
-
+    group of statements for specific purpose to execute business logic.
 syntax:
 function name(){
     st-1
@@ -9,3 +7,4 @@ function name(){
     st-3...
 }
 name()
+
