@@ -54,3 +54,39 @@ let age2=my_age(2002)
 console.log(age2)
 */
 // ======================================================================================================================
+/*
+let dt=new Date()
+console.log(dt)//print cdt;
+
+let ct = new Date().toLocaleTimeString()
+console.log(ct)//print current time
+console.log(typeof ct)  //String
+
+let current_Year = new Date().getFullYear()
+console.log(current_Year)  //2025  //print current year
+
+let current_Date = new Date().toLocaleDateString()
+console.log(current_Date)//print current date-only
+*/
+// ====================================================================================================================
+/*
+function cal_Age(dob_Year){
+    
+    let cy = new Date().getFullYear()//let cy = 2025;
+    return cy-dob_Year;//get the current year from date object
+}
+let age1 = cal_Age(2003)
+console.log(age1)  //22
+let age2 = cal_Age(2002)
+console.log(age2)//23
+*/
+// ===============================================================================================================================
+/*
+function acc_bal(){
+    return 1000000
+    console.log('gm');// this is a un reachable bcz after return statement it not going to execute.
+}
+let bal=acc_bal()
+console.log(bal);//1000000
+*/
+// ================================================================================================================================
