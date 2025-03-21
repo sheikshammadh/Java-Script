@@ -1,0 +1,16 @@
+a group of statements for specific purpose.
+to execute business logic.
+return value;
+
+fat arrow is nothing but lambda.
+alternative syntax for function.()=>{clg('addition)}
+
+advantage:
+    1.to make less code.
+    2.coincide code / shorter code
+    3.implicit return
+    4.this keyword
+    5.function hoisting
+
+JS     -->()=>{}
+python -->lambda
