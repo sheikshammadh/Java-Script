@@ -1,0 +1,9 @@
+
+Types of events:
+    1.mouse events
+    2.form 
+    3.browser
+    
+
+
+
