@@ -7,3 +7,7 @@
 // button.addEventListener('mouseover'), () => {
 //       button.style.backgroundColor = 'blue'
 // }
+function uppercase(){
+      const x = document.getElementById('fname');
+      x.value=x.value.touppercase()''
+}
