@@ -9,5 +9,5 @@
 // }
 function uppercase(){
       const x = document.getElementById('fname');
-      x.value=x.value.touppercase()''
+      x.value=x.value.touppercase()
 }
