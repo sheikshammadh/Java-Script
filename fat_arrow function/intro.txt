@@ -6,10 +6,10 @@ fat arrow is nothing but lambda.
 alternative syntax for function.()=>{clg('addition)}
 
 advantage:
-    1.to make less code.
+    1.to make less code./concise code
     2.coincide code / shorter code
     3.implicit return
-    4.this keyword
+    4.this keyword  return empty obj.
     5.function hoisting
 
 JS     -->()=>{}
