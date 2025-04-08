@@ -57,3 +57,19 @@
 // counter()
 // counter()
 
+// function name(name='shyam'){
+//     console.log("hello",name)
+// }
+// name()
+// name("nandu")
+// =========================================================================================================================================================
+// Rest operator
+
+function sumexpences(){
+    let total=0
+    for (let num of arguments){
+        total+=num
+    }
+    return total
+}
+console.log(sumexpences(10,20,30,40,50));
