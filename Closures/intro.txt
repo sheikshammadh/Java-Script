@@ -1,0 +1,2 @@
+To give access from outer function to inner function scope.
+we cannot directly access the parent. we can while assign the value in child function.
