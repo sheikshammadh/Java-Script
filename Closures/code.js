@@ -44,16 +44,16 @@
 // const infunct=outerFunction()
 // infunct();
 
-function count(){
-    let count=0;
-    return function counts(){
-        count++;
-        console.log(count);
-    }
-}
-const counter=count()
-counter()
-counter()
-counter()
-counter()
+// function count(){
+//     let count=0;
+//     return function counts(){
+//         count+=2;
+//         console.log(count);
+//     }
+// }
+// const counter=count()
+// counter()
+// counter()
+// counter()
+// counter()
 
