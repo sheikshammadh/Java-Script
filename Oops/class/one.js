@@ -69,28 +69,28 @@ class Account{
         this.acc_bal=amount
     }
     deposit_amount(amount){
-        this.amount+this.deposit_amount
+        this.acc_bal+=amount
     }
     withdraw_amount(amount){
-        this.amount-this.withdraw_amount
+        this.acc_bal-=amount
     }
     get_balance(){
-        this.amount+this.deposit_amount-this.withdraw_amount
+        return this.acc_bal
     }
 }
 let a1=new Account(101,"shyam",500)
-a1.deposit_amount(100)
+a1.deposit_amount(10)
 a1.withdraw_amount(100)
 a1.get_balance()
 console.log(a1.get_balance());
 let a2=new Account(102,"nandu",500)
-a2.deposit_amount(100)
+a2.deposit_amount(1000)
 a2.withdraw_amount(100)
 a2.get_balance()
 console.log(a2.get_balance());
 let a3=new Account(103,"vishnu",500)
 a3.deposit_amount(100)
-a3.withdraw_amount(100)
+a3.withdraw_amount(20)
 a3.get_balance()
 console.log(a3.get_balance());
 
