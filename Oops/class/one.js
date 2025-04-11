@@ -91,6 +91,7 @@ console.log(a2.get_balance());
 let a3=new Account(103,"vishnu",500)
 a3.deposit_amount(100)
 a3.withdraw_amount(20)
+a3.deposit_amount(10)
 a3.get_balance()
 console.log(a3.get_balance());
 
