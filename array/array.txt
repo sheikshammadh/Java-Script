@@ -1,0 +1,19 @@
+methods:
+    push
+    pop
+    shift
+    unshift
+    slice
+    splice
+    reverse
+    indexof
+    lastindexof
+    call
+    apply
+    concat
+    -----------
+    map
+    filter
+    find
+    reduce
+    foreach
