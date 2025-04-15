@@ -1,11 +1,13 @@
 syncronous:
 executing task one after another.
 blocking others request.
+increase in time intake
 
-
-Asuncronous:
-executing the sask simultaneously.
+Asyncronous:
+executing the task simultaneously.
 non blocking
+decrease in time intake
+
 
 callback() passing function as an orgument.
 using promise()  
