@@ -15,6 +15,14 @@ let create_empl=(emp)=>{
 let display_empl=()=>{
     setTimeout(()=>{
         let rows="";
+        employees.forEach((emp)=>{
+            rows+=`<tr>
+                        <td>${emp.eid}</td>
+                        <td>${emp.ename}</td>
+                        <td>${emp.esal}</td>
+                  </tr>`
+        })
+
         
         
     },1000)
