@@ -12,7 +12,22 @@
 // console.log(c);
 
 //extending array by using spread.
-let aa=[10,20,30,40,50]
-let bb=[20,30,40,50,60]
-let cc=[...aa,...bb,90,100,101,102]
-console.log(cc);
+// let aa=[10,20,30,40,50]
+// let bb=[20,30,40,50,60]
+// let cc=[...aa,...bb,90,100,101,102]
+// console.log(cc);
+
+// let emp={
+//     eid:101,
+//     ename:'sn',
+//     esal:456789,
+//     email:"sdfgh@gmail.com"
+// }
+// let details={
+//     email:"sdfghj@gmail.com",
+//     loc:"bangalore"
+// }
+// let emp_details={...emp,...details}
+// console.log(emp_details);
+//object doesnt allowed duplicate keys/properties.
+
